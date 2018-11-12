@@ -1,0 +1,21 @@
+from visual import *
+#Bos Attributes:
+
+#Denoting the center of box
+#pos:
+#tuplle(x,y,z)
+
+#Sphere:
+sphere(pos=(0,0,0),radius=0.6,color=color.cyan,opacity=1,material=materials.rough)
+
+#Ring
+ring(axis=(0.5,0,0.9),radius=0.5,thickness=0.20)
+
+#Cylinder:
+cylinder(pos=(-2,2,1),axis=(5,0,5),radius=2)
+
+#Arrow:
+arrow(pos=(-3,0,0),axis=(5,2,0),shaftwidth=0.5,color=color.yellow,up=(0,10,20))
+
+#Cone:
+cone(pos=(0,-2,0),axis=(0,4,0),radius=2)

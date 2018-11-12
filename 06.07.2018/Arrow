@@ -1,0 +1,2 @@
+from visual import *
+arrow(pos=(-3,0,0),axis=(5,2,0),shaftwidth=0.5,color=color.yellow,up=(0,10,20))
